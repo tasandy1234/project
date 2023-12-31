@@ -1,8 +1,8 @@
 pipeline {
   agent any
   tools {
-     maven 'Maven 3.8.8'
-   }
+    maven 'Maven 3.8.8'
+  }
 
   stages {
       stage('clone repo') {
